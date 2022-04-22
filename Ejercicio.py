@@ -6,7 +6,7 @@ numAdivinar = random.randint(1,10)
 numLeer = -1
 
 while (intentos > 0):
-    print("Este es el inetneto ", intentos)
+    print("Este es el intento ", intentos)
     numLeer = (int) (input("Dime un número"))
 
     if (numLeer < numAdivinar):
@@ -16,6 +16,8 @@ while (intentos > 0):
     else:
         print ("Has acertado")
         break
+
+    intentos = intentos -1
 
 if (intentos > 0):
     print("Te han sobrado ", intentos, " intentos")
