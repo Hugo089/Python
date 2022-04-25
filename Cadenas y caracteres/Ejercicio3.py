@@ -1,17 +1,17 @@
 #Pide una cadena y un carácter por teclado (valida que sea un carácter) y 
 #muestra cuantas veces aparece el carácter en la cadena.
 
-cadena = "Dime una cadena: "
+cadena = input("Dime una cadena: ")
 cont = 0
 
-caracter = ("Dime un caracter: ").upper()
+caracter = input("Dime un caracter: ").upper()
 caracter = ord(caracter)
 
 
 if (caracter >= 65 and caracter <= 90):
-    print("Es caracter")
+    print("Es un caracter válido")
     for aux in cadena:
         if (ord(aux.upper()) == caracter):
             cont = cont + 1
 
-print(cont)
+print("El carcter se repite: ",cont, " veces")
