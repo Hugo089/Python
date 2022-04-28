@@ -14,4 +14,4 @@ if (caracter >= 65 and caracter <= 90):
         if (ord(aux.upper()) == caracter):
             cont = cont + 1
 
-print("El carcter se repite: ",cont, " veces")
+print("El caracter se repite: ",cont, " veces")

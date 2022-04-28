@@ -2,7 +2,7 @@
 #frase (palabras separadas por espacios), realiza un programa que cuente 
 #cuantas palabras tiene.
 
-frase = input("Introduce un frase")
+frase = input("Introduce un frase: ")
 contador = 1
 
 for i in frase:
