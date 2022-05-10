@@ -14,7 +14,8 @@ def temperatura (tmaxima,tminima):
 
 
 
-ndias = input ("Introduzca el número de días: ")
-tmaxima = int (input ("Introduzca la temperatura máxima: "))
-tminima = int (input ("Introduzca la temperatura mínima: "))
-print (temperatura(tmaxima,tminima))
+ndias = (int)(input ("Introduzca el número de días: "))
+for i in range (ndias):
+    tmaxima = int (input ("Introduzca la temperatura máxima: "))
+    tminima = int (input ("Introduzca la temperatura mínima: "))
+    print (temperatura(tmaxima,tminima))
