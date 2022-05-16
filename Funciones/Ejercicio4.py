@@ -4,7 +4,7 @@
 #dicha función.
 
 def covertirEspacio (texto):
-    subcadena = " "
+    subcadena = ""
     for i in texto:
         subcadena = subcadena + i + " "
     
